@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.firstnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.firstnav input{
+    width: 300px;
+    height: 27px;
+    border-radius: 3px;
+    text-align: center;
+    border: 2px solid gray;
+    margin-top: 16px;
+}
+.firstnav p{
+    margin-top: 18px;
+    font-size: 17px;
+}
+.secondnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+    background-color: rgb(245, 236, 236);
+    font-weight: 800;
+}
+.secondnav p:hover{
+border-bottom: 2px solid rgb(1, 1, 41);
+color: rgb(1, 1, 41);
+cursor: pointer;
+}
+.secondnav img{
+    width: 5%;  
+}
+.lens{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #f5f5f5;
+    padding: 11px;
+}
+.lens img{
+    width: 18%;
+    border: 2px solid white;
+    border: 5px;
+}
+.main img{
+    width: 100%;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 11px;
+}
+.cart .card{
+    text-align: center;
+}
+.card button{
+    width: 100px;
+    height: 33px;
+    color: white;
+    background-color: rgb(15, 168, 173);
+    border-radius: 2px;
+    border: none;
+    font-size: 14px;font-weight: 600;
+}
+.card p{
+    font-size: 16px;
+}
+.cart .card img{
+width: 75%;
+
+}
+.banner h2{
+    text-align: center;
+    padding: 32px;
+}
+
+.banner .img img{
+    width: 100%;
+}
+.banner .two-img{
+     
+     justify-content: center;
+     justify-content: space-around;
+     object-fit: cover;
+}
+.two-img img{
+    width: 48%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #000042;
+    color: #FFFFFF;
+    padding: 43px;
+}
+
+
+
+
+
+
+
